@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: ;
+}
+body{
+    /* background-color: green; */
+    padding: 40px;
+    margin: 8px;
+    justify-content: space-around 10px;
+    width: 200vh;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.head{
+    text-align: center;
+}
+
+.table{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    padding: 200px auto;
+    margin: 6px auto;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+   
+}
+.table tr th , .table tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
